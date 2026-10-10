@@ -1,0 +1,15 @@
+scenario                          config  runs  avg_regret paper_value
+       A      ETC/exploration_rounds_100   100       10.10        10.1
+       A               UCB-Tuned/default   100       30.67       30.67
+       A                     UCB/default   100      238.17      238.17
+       B    ETC/exploration_rounds_10000   100      150.66      150.66
+       B               UCB-Tuned/default   100      212.21      212.21
+       B                     UCB/default   100     1127.17     1127.17
+       C    ETC/exploration_rounds_10000   100      170.53      170.53
+       C                   EUCBV/rho_0_5   100      476.31      476.31
+       C PAC-UCB/c_1_b_1_q_1_3_beta_0_05   100      417.34      417.34
+       C               UCB-Tuned/default   100      226.09      226.09
+       C           UCB-V/theta_1_c_1_b_1   100      367.65      367.65
+       C                     UCB/default   100     1172.57     1172.57
+
+All checked values match the paper: True
